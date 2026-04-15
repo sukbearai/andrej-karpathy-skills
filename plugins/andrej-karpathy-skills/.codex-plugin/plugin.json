@@ -1,0 +1,50 @@
+{
+  "name": "andrej-karpathy-skills",
+  "version": "1.0.0",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+  "author": {
+    "name": "[TODO: Publisher Name]",
+    "email": "[TODO: author@example.com]",
+    "url": "[TODO: https://github.com/author]"
+  },
+  "homepage": "https://github.com/sukbearai/andrej-karpathy-skills",
+  "repository": "https://github.com/sukbearai/andrej-karpathy-skills",
+  "license": "MIT",
+  "keywords": [
+    "guidelines",
+    "best-practices",
+    "coding",
+    "karpathy"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Andrej Karpathy Skills",
+    "shortDescription": "Guidelines for simpler, safer coding-agent behavior.",
+    "longDescription": "Adds the karpathy-guidelines skill for surfacing assumptions, avoiding overengineering, making surgical changes, and driving toward verifiable goals.",
+    "developerName": "[TODO: Publisher Name]",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/sukbearai/andrej-karpathy-skills",
+    "privacyPolicyURL": "[TODO: https://example.com/privacy]",
+    "termsOfServiceURL": "[TODO: https://example.com/terms]",
+    "defaultPrompt": [
+      "Review this plan for hidden assumptions before coding.",
+      "Refactor this code with the minimum necessary changes.",
+      "Turn this request into concrete success criteria."
+    ],
+    "brandColor": "[TODO: #3B82F6]",
+    "composerIcon": "[TODO: ./assets/icon.png]",
+    "logo": "[TODO: ./assets/logo.png]",
+    "screenshots": [
+      "[TODO: ./assets/screenshot1.png]",
+      "[TODO: ./assets/screenshot2.png]",
+      "[TODO: ./assets/screenshot3.png]"
+    ]
+  }
+}
